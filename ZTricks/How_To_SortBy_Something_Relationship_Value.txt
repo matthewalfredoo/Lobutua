@@ -1,0 +1,5 @@
+https://laracasts.com/discuss/channels/eloquent/order-by-on-relationship
+
+https://stackoverflow.com/questions/25700529/laravel-eloquent-how-to-order-results-of-related-models
+
+The answer is from the last answer in the stackoverflow link

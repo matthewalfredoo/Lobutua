@@ -1,0 +1,23 @@
+#img-laporan-pdf {
+    width: 60%;
+    padding: 10px;
+    padding-left: 0;
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    resize: none;
+}
+
+input {
+    border: none;
+}
+
+textarea {
+    border: none;
+}
+
+#judul-laporan-pdf {
+    text-align: center;
+    font-family: sans-serif;
+}

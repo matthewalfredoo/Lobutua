@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/63899827/laravel-8-with-laravelcollective-html-6-2-action-controllerfunction-not-define

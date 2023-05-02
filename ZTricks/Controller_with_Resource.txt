@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/63845754/route-resource-not-working-in-laravel-8-x

@@ -1,0 +1,4 @@
+Keyword Search in Google:
+Add [_token] to fillable property to allow mass assignment
+
+https://gist.github.com/rajucs/cea745d625be736e1ac0b19eba48f1aa

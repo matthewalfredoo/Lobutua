@@ -1,0 +1,84 @@
+@foreach($pengumuman->chunk(3) as $chunk)
+            
+            <div class="row">
+                @foreach($chunk as $pengumuman)
+                <div class="col-md-4 col-sm-12 col-xs-12" style="padding-bottom: 60px;">
+                    <div class="card" style="width: 101%; height: 120%;">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $pengumuman->judul }}</h5>
+                            <!-- <p class="card-subtitle">{{ $pengumuman->created_at }}</p> -->
+                            <?php
+                                if(strlen($pengumuman->konten) > 100){
+                                    $pengumuman->konten=substr($pengumuman->konten, 0, 100) . "...";
+                                }
+                            ?>
+                            <p class="card-text">{{ $pengumuman->konten }}</p>
+                            <a href="/pengumuman/{{ $pengumuman->id }}" class="btn btn-detail">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        @endforeach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @foreach($pengumuman->chunk(3) as $chunk)
+            
+            <div class="row">
+                @foreach($chunk as $pengumuman)
+                <div class="col-md-4 col-sm-12 col-xs-12" style="padding-bottom: 60px;">
+                    <div class="card" style="width: 101%; height: 120%;">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $pengumuman->judul }}</h5>
+                            <!-- <p class="card-subtitle">{{ $pengumuman->kategori }}</p> -->
+                            <?php
+                                if(strlen($pengumuman->konten) > 100){
+                                    $pengumuman->konten=substr($pengumuman->konten, 0, 100) . "...";
+                                }
+                            ?>
+                            <p class="card-text">{{ $pengumuman->konten }}</p>
+                            <a href="/pengumuman/{{ $pengumuman->id }}" class="btn btn-detail">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+
+        @endforeach

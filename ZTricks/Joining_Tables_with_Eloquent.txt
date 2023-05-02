@@ -1,0 +1,16 @@
+Just look at all the links below.
+
+https://stackoverflow.com/questions/54701380/how-to-join-3-tables-with-laravels-eloquent-relationships-with-eager-loading
+
+https://stackoverflow.com/questions/54631600/how-to-join-two-or-more-table-using-laravel-eloquent-method
+
+https://laracasts.com/discuss/channels/laravel/how-to-use-laravel-eloquent-for-multiple-joins
+
+https://laravel.com/docs/8.x/eloquent-relationships#eager-loadinghttps://stackoverflow.com/questions/29165410/how-to-join-three-table-by-laravel-eloquent-model
+
+https://stackoverflow.com/questions/29165410/how-to-join-three-table-by-laravel-eloquent-model
+
+https://laracasts.com/discuss/channels/eloquent/how-to-use-left-join-in-eloquent
+
+https://laravel.com/docs/8.x/queries#joins
+

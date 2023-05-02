@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/24128919/laravel-one-to-many-relation-with-custom-primary-key-not-working

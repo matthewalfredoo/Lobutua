@@ -1,0 +1,3 @@
+search keyword: how to check user's role spatie laravel
+
+https://stackoverflow.com/questions/57564792/laravel-spatie-roles-get-current-users-role

@@ -1,0 +1,4 @@
+How to make option for tag select is coming from database, and coming from another table that the
+form is intended for.
+If you're confused just open link the straight away.
+https://stackoverflow.com/questions/46373634/fetch-data-from-another-table-to-select-in-laravel-5-5

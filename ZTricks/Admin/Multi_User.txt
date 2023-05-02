@@ -1,0 +1,4 @@
+https://www.itsolutionstuff.com/post/laravel-8-multi-auth-authentication-tutorialexample.html
+
+https://www.positronx.io/create-multi-auth-authentication-in-laravel/
+

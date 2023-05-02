@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/24555697/check-if-belongstomany-relation-exists-laravel

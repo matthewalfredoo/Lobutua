@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/47730514/laravel-eloquent-belongsto-relationship-returns-null

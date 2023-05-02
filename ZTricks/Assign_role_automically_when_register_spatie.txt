@@ -1,0 +1,7 @@
+search keyword
+how to make user registration spatie automically as user
+
+https://stackoverflow.com/questions/51617190/assigning-the-role-while-user-registration
+
+another reference
+https://github.com/spatie/laravel-permission/issues/1527

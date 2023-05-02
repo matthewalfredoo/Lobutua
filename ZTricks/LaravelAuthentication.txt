@@ -1,0 +1,5 @@
+https://laravelarticle.com/laravel-8-authentication-tutorial
+
+https://stackoverflow.com/questions/58111841/auth-pages-not-getting-css-in-laravel
+
+https://www.youtube.com/watch?v=ZkPla94WV80

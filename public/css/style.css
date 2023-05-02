@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+
+* {
+    font-family: 'Montserrat';
+}
+
+main{
+    overflow: hidden;
+}
+
+hr.new1 {
+    border: 0.6px solid #448034;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    height: 0%;
+    min-height: 0vh;
+}
+
+.fa-phone-alt {
+    font-size: 20px;
+    color: #579bd6;
+}
+
+.fa-link {
+    font-size: 20px;
+    color: #579bd6;
+}
+
+.fa-bell {
+    font-size: 20px;
+    color: #579bd6;
+}
+
+.fa-book-open {
+    font-size: 20px;
+    color: #579bd6;
+}
+
+#layanan-customer-judul {
+    font-size: 17px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    min-height: 100%;
+}
+
+#jumbo-footer {
+    background-color: rgb(255, 255, 255);
+}
+
+#layanan-customer-text {
+    color: rgb(38, 98, 31);
+    font-weight: 500;
+}
+
+/*Header*/
+.web-icon {
+    width: 50px;
+}
+
+.web-title {
+    color: #448034;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #448034;
+    font-weight: 600;
+}
+
+/* Halaman Beranda */
+.hero-image {
+    /* background-image: url('../img/background.png');
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat; */
+    /* position: relative; */
+    /* margin-top: -25px; */
+    /* filter: brightness(1); */
+    /* filter: grayscale(0.9); */
+    /* filter: invert(12); */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    width: 100%;
+    height: 710px;
+}
+
+.welcome-web {
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+.welcome-web-container {
+    width: 100%;
+}
+
+.title-welcome {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subtitle-welcome {
+    font-size: 15px;
+}
+
+.btn-daftar {
+    color: white;
+    background-color: #CE6253;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .15s;
+}
+
+.btn-daftar:hover {
+    color: white;
+    background-color: #99453a;
+    text-decoration: none;
+}
+
+.btn-masuk {
+    color: white;
+    background-color: #448034;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .15s;
+}
+
+.btn-masuk:hover {
+    color: white;
+    background-color: #2a4e20;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Login Page (login.blade.php)*/
+.form-login-title {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.form-login-subtitle {
+    color: #448034;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-login,
+.btn-register {
+    color: white;
+    background-color: #448034;
+    transition: .15s;
+}
+
+.btn-login:hover,
+.btn-register:hover {
+    color: rgba(255, 255, 255, 0.685);
+    background-color: #448034c2;
+}
+
+.register-form-login {
+    transition: .15s;
+}
+
+.register-form-login:hover {
+    color: #1D68BB;
+}
+
+/* form .form-group .form-control {
+    border-color: #a1efa5;
+    box-shadow: 0 0 0 0.2rem rgba(93, 219, 62, 0.25);
+} */
+
+/* Halaman Regisyter */
+
+#checkbox-register-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#checkbox_register {
+    height: 22px;
+    font-size: 13px;
+    margin: 7px;
+    margin-bottom: 25px;
+}
+
+/*Halaman pengumuman (../views/pengumuman/index.blade.php)*/
+.title-wrap {
+    background-color: #125C30;
+    border-radius: 15px;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.title-pengumuman {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    color: black;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subtitle-pengumuman {
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 100%;
+    color: white;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+.cut-text { 
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 100%; 
+    /* height: 1.2em;  */
+    white-space: nowrap;
+}
+
+.btn-detail {
+    background-color: #448034;
+    color: white;
+}
+
+.btn-detail:hover {
+    color: white;
+    background-color: #23411bc2;
+}
+
+#kategori_pengumuman_id {
+    height: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* Halaman Administrasi */
+#checkbox_adm_ktp {
+    height: 22px;
+    font-size: 13px;
+    margin: 7px;
+    margin-bottom: 25px;
+}
+
+#checkbox_adm_pindah {
+    height: 22px;
+    font-size: 13px;
+    margin: 7px;
+    margin-bottom: 25px;
+}
+
+#nikAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#nokkAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#alamatSAdministrasi {
+    resize: none;
+}
+
+#alamatTAdministrasi {
+    resize: none;
+}
+
+#alamatAdministrasi {
+    resize: none;
+}
+
+#nameAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#jkAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#pekerjaanAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#agamaAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#JkeluargaAdministrasi {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#phoneAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#umurAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#lokasiAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#tabsAdministrasi {
+    border: 1%;
+}
+
+#keteranganAdministrasi {
+    resize: none;
+}
+
+#tabsAdministrasi li {
+    border: 1px solid rgb(218, 218, 218);
+    margin-left: 1%;
+    background-color: white;
+    font-weight: 500;
+}
+
+#tabsAdministrasi li:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+#submitBerkas {
+    width: 100%;
+}
+
+#customFile {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#descForm {
+    color: red;
+    font-weight: 500;
+}
+
+/* Halaman Laporan (mungkin) */
+#nameLaporan {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#ttlAdministrasi {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#ttlPosition {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+}
+
+#kategoriLaporan {
+    border-radius: 5px;
+}
+
+#phoneLaporan {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#lokasiLaporan {
+    border-color: none;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#tabs {
+    border: 1%;
+}
+
+#keteranganLaporan {
+    resize: none;
+}
+
+#card-surat {
+    border: none;
+}
+
+.new2 {
+    width: 30%;
+    border-color: #4F8840;
+}
+
+#tabs li {
+    border: 1px solid rgb(218, 218, 218);
+    margin-left: 1%;
+    background-color: white;
+    font-weight: 500;
+}
+
+#tabs li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+#tambahLaporan {
+    font-size: 15px;
+    height: 50px;
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+#judul-laporan-show {
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+#img-laporan-edit,
+.img-pengumuman-edit {
+    /* height: 200px; */
+    width: 280px;
+    padding-top: 10px;
+}
+
+.icon-edit-laporan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-edit-laporan-group {
+    font-size: 18px;
+}
+
+.fa-trash-alt {
+    color: red;
+    transition: 0.15s;
+}
+
+.fa-trash-alt:hover {
+    color: rgb(245, 114, 114);
+}
+
+.fa-edit {
+    color: #0275d8;
+    transition: 0.15s;
+}
+
+.fa-edit:hover {
+    color: #579bd6;
+    transition: 0.15s;
+}
+
+.text-date-laporan {
+    font-size: 12px;
+    color: rgb(141, 141, 141);
+}
+
+/*laporan show*/
+#show-laporan {
+    border: none;
+}
+
+#judul-laporan-show {
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    float: none;
+    font-weight: bold;
+}
+
+#judul2-laporan-show {
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    float: left;
+    padding-left: 0;
+}
+
+#keterangan-laporan-show {
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    resize: none;
+    float: none;
+    font-weight: bold;
+}
+
+#keterangan2-laporan-show {
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    resize: none;
+    float: none;
+    padding-left: 0;
+}
+
+#img-laporan-show {
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+    border-color: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
+    resize: none;
+}
+
+#aaa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-download-laporan {
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.gbr-beranda {
+    height: 200px;
+    background-color: inherit;
+}
+
+.jb-beranda {
+    /* background-color: #d5e8f175; */
+    background-color: inherit;
+}
+
+.fade{
+    opacity: 1;
+}
